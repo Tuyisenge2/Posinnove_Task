@@ -1,3 +1,24 @@
+/* @import 'tailwindcss';  */
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+/* Your custom styles go here */
+@import "tailwindcss";
+
+
+@theme {
+  --breakpoint-bimobile: 496px;
+  --breakpoint-mobile: 640px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-ipad: 1024px;
+  --breakpoint-laptop: 1280px;
+  --breakpoint-desktop: 1536px;
+
+
+}
+
+
 body {
   margin: 0;
   padding: 0;
